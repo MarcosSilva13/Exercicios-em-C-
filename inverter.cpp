@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 #include <math.h>
+
+using namespace std;
 
 int InverteNumero(int numero)
 {
@@ -25,12 +26,12 @@ int main()
 
     int num, resultado;
 
-    printf("Digite um numero: \n");
-    scanf("%d", &num);
+    cout << "Digite um numero: ";
+    cin >> num;
 
     resultado = InverteNumero(num);
 
-    printf("Numero digitado: %d \nNumero invertido: %d ", num, resultado);
+    cout << "Numero digitado: " << num << " Numero invertido: " << resultado << endl;
 
     system("pause");
     return 0;
