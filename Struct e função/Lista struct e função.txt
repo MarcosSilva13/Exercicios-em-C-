@@ -1,0 +1,26 @@
+1) Implemente um programa que leia o nome, a idade e o endereço de uma pessoa e armazene os
+dados em uma estrutura. Mostre os dados após o cadastro.
+
+2) Escreva um programa em C/C++ utilizando struct que cadastre o nome, a matrícula e duas notas
+de vários alunos. Em seguida imprima a matrícula, o nome e a média de cada um deles.
+
+3) Utilizando uma estrutura, faça um programa que permita a entrada de nome, endereço e telefone
+de 5 pessoas e os imprima em ordem alfabética.
+
+4) Faça um programa que leia os dados de 10 alunos (Nome, matricula, Media Final), armazenando
+em um vetor. Uma vez lidos os dados, divida estes dados em 2 novos vetores, o vetor dos aprovados
+e o vetor dos reprovados, considerando a media mínima para a aprovação como sendo 6.0. Exiba
+na tela os dados do vetor de aprovados, seguido dos dados do vetor de reprovados.
+
+5) Faça um programa que apresente um menu inicial com no mínimo duas opções: Cadastro e
+Pesquisa. Quando o usuário desejar cadastrar, registre o nome, a altura, o peso, o cpf e o sexo
+em uma struct. Com os dados cadastrados, implemente a função Pesquisa onde, através do CPF,
+localize os dados de uma pessoa no registro e imprima o respectivo IMC.
+
+6) Utilizando funções e struct, faça um programa em C/C++ que cadastre vários produtos (utilize
+Menu). Em seguida, imprima uma lista com o código e nome da cada produto. Por fim, consulte
+o preço de um produto através de seu código.
+
+7) Baseado em um "baralho tradicional" (cada carta tem seu naipe e seu valor), através de struct e
+funções implemente a parte de distribuição (sorteio) de cartas para 2 jogadores de truco, considerando
+que cada jogador irá receber 3 cartas. Exiba na tela as cartas que cada um dos jogadores recebeu.
