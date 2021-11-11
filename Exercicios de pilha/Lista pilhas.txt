@@ -1,0 +1,23 @@
+1) Implemente uma função que receba como parâmetro uma pilha. A pilha deve estar preenchida
+por némeros inteiros. A função deve retornar o maior elemento da pilha.
+
+2) Escreva uma função que receba como parâmetro duas pilhas e verifique se elas são iguais. Duas
+pilhas são iguais se possuem os mesmos elementos, na mesma ordem.
+
+3) Escreva uma função que preencha uma pilha passada como parâmetro com os elementos de um
+vetor passado como parâmetro.
+
+4) Dada uma sequência contendo N números reais em uma pilha, escreva uma função que imprima
+a ordem reversa dessa pilha.
+
+5) Implemente uma função chamada TPilha, que receba um vetor de inteiros com 15 elementos. Para
+cada um deles, faça o que se pede:
+	• se o número for par, insira-o na pilha;
+	• se o número lido for ímpar, retire um número da pilha;
+	• Ao final, esvazie a pilha imprimindo os elementos.
+
+6) Escreva uma função chamada TPilha2 que receba como parâmetro 2 pilhas (P e N) e um vetor
+de inteiros. Para cada inteiro, verifique:
+	• se positivo, insira na pilha P;
+	• se negativo, insira na pilha N;
+Mostre as duas pilhas.
