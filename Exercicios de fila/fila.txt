@@ -1,0 +1,31 @@
+1) Dado uma pilha P vazia e uma fila F não vazia, utilizando apenas os testes de fila e pilha vazias,
+as operações Enfileira, Desenfileira, Empilha, Desempilha, e uma variável auxiliar, escreva uma
+função que inverta a ordem dos elementos da fila.
+
+2) Considere a seguinte estrutura:
+1 #define MAXTAM 20
+2
+3 typedef struct {
+4     int idade;
+5     bool gestante;
+6 } Cliente;
+7
+8 typedef struct {
+9     Cliente Fila[MAXTAM];
+10    int inicio, fim;
+11    int quantidade;
+12 } TFila;
+
+Utilizando as TADs implementadas para Filas, acrescidas das funções que julgar pertinente, elabore
+um programa que divida uma determinada Fila de n Clientes (n ≤ MAXTAM) em duas filas.
+Considerando a estrutura da fila inicial e os dados atribuídos (manualmente ou por sorteio), mova
+os(as) clientes gestantes e maiores de 60 anos para a nova fila chamada Fila Prioritaria. Mostre
+as duas filas.
+
+3) Para um dado número inteiro n > 1, o menor inteiro d > 1 que divide n é chamado de fator primo.
+É possível determinar a fatoração prima de n achando-se o fator primo de substituindo n pelo
+quociente n / d, repetindo essa operação até que n seja igual a 1. Utilizando um dos TADs vistos
+em sala (Lista, Pilha ou Fila) para auxiliá-lo na manipulação de dados, implemente uma função
+que compute a fatoração prima de um número imprimindo os seus fatores em ordem crescente.
+Por exemplo, para n = 3960, deverá ser impresso: 2 * 2 * 2 * 3 * 3 * 5 * 11. Justifique a escolha
+do TAD utilizado
